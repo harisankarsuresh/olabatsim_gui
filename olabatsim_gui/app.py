@@ -389,7 +389,7 @@ with tabs[1]:
                 min_value=start_day + 1,
                 value=2,
                 step=1,
-                max_value=len(os.listdir("sim_data") - 1),
+                max_value=len(os.listdir("sim_data")) - 1,
             )
             split_by_electrode = st.checkbox("Split by Electrodes")
             st.write(f"Plotting data from day {start_day} to day {end_day}")
