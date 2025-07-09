@@ -1,0 +1,14 @@
+__pycache__/
+.venv/
+*.pyc
+.mypy_cache/
+.pytest_cache/
+.qodo/
+.ruff_cache/
+*.log
+build/
+olabatsim_gui/olabatsim_gui.egg-info/
+dist/
+# Simulation data
+sim_data/
+*.csv

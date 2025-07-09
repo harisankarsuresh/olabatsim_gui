@@ -1,0 +1,20 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.4.4  # Always use the latest stable tag
+    hooks:
+      - id: ruff
+        args: ["--fix"]  # auto-fix lint issues
+        exclude: "__init__.py"  # optional
+
+  - repo: https://github.com/psf/black
+    rev: 24.4.2
+    hooks:
+      - id: black
+        language_version: python3.10
+
+  - repo: https://github.com/pre-commit/mirrors-isort
+    rev: v5.10.1
+
+    hooks:
+      - id: isort
+        args: ["--profile", "black"]
