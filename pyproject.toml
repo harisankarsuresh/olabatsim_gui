@@ -9,7 +9,7 @@ description = "Streamlit-based degradation simulation tool"
 authors = [{ name="Harisankar", email="harisankar.suresh@olaelectric.com" }]
 dependencies = [
     "streamlit==1.46.1",
-    "olabatsim @ git+https://github.com/harisankarsuresh/olabatsim.git",
+    "olabatsim @ git+https://github.com/harisankar99ola/olabatsim.git",
     "pandas",
     "numpy"
 ]
